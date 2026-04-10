@@ -37,6 +37,7 @@ docs/            → Project poster and documentation
 
 This guide explains how any user can run the system locally on their laptop and collect vital-sign data from the wearable shirt.
 
+---
 ### 1️⃣ Hardware Setup (Wearable Shirt)
 
 🔹 Required Components:
@@ -68,6 +69,8 @@ This guide explains how any user can run the system locally on their laptop and 
 
 - Power the system via USB cable to the laptop
 
+---
+
 ### 2️⃣ Upload Arduino Code
 
 2.1. Open Arduino IDE
@@ -97,6 +100,8 @@ ECG=700   Thr=400   motionScore=0.02   motionQuality=GOOD
 ```
 This confirms the shirt is sending sensor data.
 
+---
+
 ### 3️⃣ Launch the Web Dashboard (Local Mode)
 
 3.1. The dashboard is located at: dashboard/webpage/public/index.html
@@ -113,6 +118,8 @@ Select "Open With Live Server"
 
 3.3. Your browser will open: http://127.0.0.1:5500/webpage/public/index.html
 
+---
+
 ### 4️⃣ Create User Account (Local Authentication)
 
 4.1. On the dashboard login page, select “Create account”
@@ -126,6 +133,8 @@ Log in
 ```
 
 4.2. This works fully offline (local Firestore emulator).
+
+---
 
 ### 5️⃣ Start Collecting Data
 
@@ -141,11 +150,15 @@ Log in
 
 ✔ Motion score reflects IMU activity
 
+---
+
 ### 6️⃣ Where Is Data Stored?
 
 Even without Firebase, the dashboard stores data in: dashboard/webpage/export/
 
 If Firebase is connected later, the same data is pushed to Firestore.
+
+---
 
 ### 🛠 Developer Notes (for the team)
 
@@ -158,6 +171,8 @@ Other teammates need IAM permission:
 Service Account User in Google Cloud.
 
 Normal users running data collection do NOT need Firebase.
+
+---
 
 ### 🛠 Technologies Used
 
@@ -173,6 +188,8 @@ Firebase (optional)
 
 3D CAD design
 
+---
+
 ### 👥 Authors
 
 Artemis Badger
@@ -184,6 +201,8 @@ Marc Dobos
 Sultanus Salehin
 
 Irem Yunculer
+
+---
 
 ### 📄 License
 
