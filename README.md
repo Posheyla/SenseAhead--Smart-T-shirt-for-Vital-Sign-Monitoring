@@ -30,6 +30,7 @@ hardware/        → CAD files and enclosure design
 firmware/        → Arduino code for sensors
 dashboard/       → Web dashboard (local visualization)
 docs/            → Project poster and documentation
+```
 
 ---
 🚀 How to Run the VSM-3 System (USER GUIDE)
