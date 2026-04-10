@@ -31,6 +31,7 @@ firmware/        → Arduino code for sensors
 dashboard/       → Web dashboard (local visualization)
 docs/            → Project poster and documentation
 
+---
 🚀 How to Run the VSM-3 System (USER GUIDE)
 
 This guide explains how any user can run the system locally on their laptop and collect vital-sign data from the wearable shirt.
