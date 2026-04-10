@@ -38,6 +38,7 @@ docs/            → Project poster and documentation
 This guide explains how any user can run the system locally on their laptop and collect vital-sign data from the wearable shirt.
 
 1️⃣ Hardware Setup (Wearable Shirt)
+
 🔹 Required Components
 Arduino UNO R4 WiFi
 MAX30101 (SpO₂ + HR)
@@ -47,11 +48,13 @@ ICM-20948 (9-axis IMU)
 Jumper wires
 Enclosure 3D printed parts (from CAD folder)
 Shirt with embedded sensors (as designed by team)
+
 🔹 Assembly Overview
 Attach all sensors to the Arduino using Qwiic/I2C and analog ECG connection
 Mount sensors inside the enclosure parts (CAD folder)
 Position electrodes on the chest and tighten straps
 Power the system via USB cable to the laptop
+
 2️⃣ Upload Arduino Code
 Open Arduino IDE
 Open: firmware/web_arduino_2/web_arduino_2.ino
